@@ -21,7 +21,8 @@ public class PilotTest {
 
     @Test
     public void testCanGetRank(){
-        assertEquals(1, pilot.getRank());
+        Integer expected = 1;
+        assertEquals(expected, pilot.getRank());
     }
 
     @Test

@@ -4,10 +4,10 @@ package com.codeclan.pilotrankings;
 public class Pilot {
 
     String name;
-    int rank;
+    Integer rank;
     String ship;
 
-    public Pilot(String name, int rank, String ship){
+    public Pilot(String name, Integer rank, String ship){
         this.name = name;
         this.rank = rank;
         this.ship = ship;
@@ -17,7 +17,7 @@ public class Pilot {
         return name;
     }
 
-    public int getRank() {
+    public Integer getRank() {
         return rank;
     }
 
